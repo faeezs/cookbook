@@ -1,0 +1,216 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #1f2937;
+  /* overflow: hidden; */
+}
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 100px 12px 100px;
+}
+.one {
+  color: white;
+  display: flex;
+  padding: 50px 0px 50px 100px;
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 1)
+    ),
+    url(../images/pexels-ella-olsson-1640774.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #1f2937;
+}
+
+.one .content,
+.one h1 {
+  padding: 0px;
+  margin: 0px;
+  max-width: 300px;
+  position: relative;
+  text-shadow: 0 0 5px #e7e2e2, 0 0 15px #b4acac, 0 0 30px #e7e2e2;
+}
+
+.one .header1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  flex: 0 1 auto;
+  min-width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+button:hover{
+    color: #3882f6;
+    background-color: white;
+    border: 1px solid #3882f6;
+}
+ .one button:hover{
+    border: 1px solid #3882f6;
+ }
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover{
+    color: rgb(219, 117, 34);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 12px;
+}
+
+.two {
+  background-color: #525d6c;
+  flex-wrap: wrap;
+  padding: 50px 80px 0px 80px;
+}
+
+.two .header1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #e5e7eb;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  flex-flow: row wrap;
+}
+
+.card {
+  /* max-width: 150px; */
+  width: 380px;
+  height: 380px;
+  color: #1f293700;
+  transition: ease-in 0.5s;
+  padding-bottom: 180px;
+}
+
+.card :hover {
+  color: #f9faf8;
+}
+
+.thumb {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #525d6c, rgba(0, 0, 0, 0));
+  border-radius: 20px;
+  background-size: cover;
+  transition: ease 0.5s;
+  /* gap: 32px; */
+}
+
+.card a {
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: #525d6c;
+  /* gap: 32px; */
+  transition: ease-in 0.5s;
+  text-decoration: none;
+  position: relative;
+}
+
+.thumb:hover {
+  transform: scale(1.05);
+}
+
+.three {
+  background-color: #e5e7eb;
+  padding: 100px 150px;
+  background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.6),
+        rgba(149, 151, 150, 0.3)
+      )
+      no-repeat fixed,
+    url(../images/pexels-ella-olsson-1640774.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #2b394d;
+  text-shadow: 0 0 5px #e7e2e2, 0 0 15px #e7e2e2, 0 0 30px #e7e2e2;
+}
+
+.quoted {
+  /* margin-left: auto; */
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+    font-weight: bold;
+  /* color: tomato; */
+  color: #182333;
+}
+
+.four {
+  background-color: #31548d;
+  /* background-color: #1F2937; */
+  color: white;
+  margin: 50px 250px;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  gap: 32px;
+  padding: 36px;
+  border-radius: 5px;
+  /* margin:100px auto; */
+  /* flex-flow:row wrap; */
+}
+
+/* .four .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} */
+
+.four p {
+  margin: 0px;
+}
+
+.four button {
+  border: 1px solid #f9faf8;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0px;
+  align-self: stretch;
+  background-color: #525d6c;
+  color: white;
+}
